@@ -17,8 +17,6 @@ export default function RootLayout({
 }) {
   const [direction, setDirection] = useState("rtl");
 
-  console.log("direction", direction);
-
   const toggleDirection = () => {
     const newDirection = direction === "ltr" ? "rtl" : "ltr";
     setDirection(newDirection);
