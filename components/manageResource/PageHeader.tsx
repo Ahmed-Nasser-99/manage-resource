@@ -11,7 +11,7 @@ const PageHeader = () => {
       items-center
       gap-7"
       >
-        <button className="flex justify-center items-center w-14 h-14 rounded-lg bg-[#E7EAED] ">
+        <button className="flex justify-center items-center w-14 h-14 rounded-lg bg-[#E7EAED] shrink-0">
           <BackArrow />
         </button>
         <div className="text-2xl">Add new recourses</div>
