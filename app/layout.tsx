@@ -15,7 +15,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const [direction, setDirection] = useState("ltr");
+  const [direction, setDirection] = useState("rtl");
 
   console.log("direction", direction);
 
